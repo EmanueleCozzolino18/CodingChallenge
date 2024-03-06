@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+.topmargin {
+    margin-top: 50px;
+}
+
+.mainbox {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 800px;
+    width: 1200px;
+    margin: auto;
+    border: black solid 1px;
+    border-radius: 20px;
+}
+
+.contentlogo {
+    text-align: center;
+    color: lime;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo {
+    height: 100px;
+    width: auto;
+    margin-top: 80px;
+    margin-bottom: 2px;
+}
+
+.navbox {
+    margin: auto;
+    background-color: lime;
+    height: 40px;
+    width: 80%;
+}
+
+.buttonposition {
+    text-align: center;
+    padding: 10px;
+}
+
+.contentstatus {
+    margin: auto;
+    margin-top: 30px;
+    height: 40px;
+    width: 80%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 80px;
+}
+
+.check {
+    display: inline-block;
+}
+
+.chargeOne {
+    background-color: orange;
+    height: 30px;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.chargeTwo {
+    background-color: lime;
+    height: 30px;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.chargeTree {
+    background-color: red;
+    height: 30px;
+    width: 15%;
+    border-radius: 5px;
+}
